@@ -13,6 +13,10 @@ import { HomeComponent } from './components/home/home.component';
 import { TransactionComponent } from './components/transaction/transaction.component';
 import { BalanceComponent } from './components/balance/balance.component';
 import { NewTransactionComponent } from './components/new-transaction/new-transaction.component';
+import { RegisterComponent } from './components/register/register.component';
+import { LoginComponent } from './components/login/login.component';
+import { ProductsComponent } from './components/products/products.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +25,10 @@ import { NewTransactionComponent } from './components/new-transaction/new-transa
     TransactionComponent,
     BalanceComponent,
     NewTransactionComponent,
+    RegisterComponent,
+    LoginComponent,
+    ProductsComponent,
+    NavbarComponent,
   ],
   imports: [
     BrowserModule,
