@@ -10,9 +10,6 @@ import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
-import { TransactionComponent } from './components/transaction/transaction.component';
-import { BalanceComponent } from './components/balance/balance.component';
-import { NewTransactionComponent } from './components/new-transaction/new-transaction.component';
 import { RegisterComponent } from './components/register/register.component';
 import { LoginComponent } from './components/login/login.component';
 import { ProductsComponent } from './components/products/products.component';
@@ -22,9 +19,6 @@ import { NavbarComponent } from './components/navbar/navbar.component';
   declarations: [
     AppComponent,
     HomeComponent,
-    TransactionComponent,
-    BalanceComponent,
-    NewTransactionComponent,
     RegisterComponent,
     LoginComponent,
     ProductsComponent,

@@ -1,7 +1,6 @@
-export interface MyData {
+export interface Users {
     id: number;
-    salary: number;
-    description: string;
-    date: string;
-    transactionType: string;
+    name: string;
+    emil: string;
+    password: string;
 }

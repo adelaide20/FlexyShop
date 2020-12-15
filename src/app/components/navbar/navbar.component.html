@@ -1,1 +1,36 @@
-<p>navbar works!</p>
+<!--Navbar-->
+<mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark blue-grey fixed-top" [containerInside]="false">
+    <!-- Navbar brand -->
+    <mdb-navbar-brand><a class="navbar-brand animate__animated animate__pulse animate__slow animate__infinite" target="blank" href="#">Flexy Shopping</a>
+    </mdb-navbar-brand>
+
+    <!-- Collapsible content -->
+    <links>
+        <ul class="navbar-nav ml-auto nav-flex-icons">
+            <!-- before login  -->
+            <li class="nav-item">
+                <a class="nav-link" target="blank" >
+                    <mdb-icon fas icon="user-plus"></mdb-icon> Sign Up
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" target="blank" >
+                    <mdb-icon fas icon="user"></mdb-icon> Sign In
+                </a>
+            </li>
+
+            <!-- after login -->
+            <li class="nav-item">
+                <a class="nav-link" target="blank" >
+                    <mdb-icon fas icon="user-plus"></mdb-icon> Sign Out
+                </a>
+            </li>
+        </ul>
+    </links>
+    <!-- Collapsible content -->
+</mdb-navbar>
+<!--/.Navbar-->
+
+
+<!--just adding empty space after the navbar, u can edit this with css or remove it with the class of "fixed-top" in the second line-->
+<br><br>
